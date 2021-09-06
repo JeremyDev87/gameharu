@@ -1,0 +1,13 @@
+*****초기 express 셋팅*****
+npm install express --save
+
+*****기본 웹모듈 셋팅*****
+npm install express-session --save
+npm install ejs --save
+npm install cookie-parser --save
+*****LOG 모듈 셋팅*****
+npm install morgan --save
+npm install moment --save
+npm install winston-daily-rotate-file --save
+
+* Log 의 경우 매일 log 폴더에 쌓이며(common log / error log 분리), 하루단위로 gz 으로 자동 압축됨
